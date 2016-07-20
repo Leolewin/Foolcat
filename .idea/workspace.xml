@@ -31,11 +31,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routebase.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routebase.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/routebase.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes/page/homepage.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginpage.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes/page/loginpage.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -71,16 +101,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="register.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/register.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,50 +111,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layout.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/login.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <marker date="1468812546206" expanded="true" signature="1088:1792" ph="{...}" />
-                <marker date="1468812546206" expanded="true" signature="1182:1784" ph="{&quot;url&quot;: '/login'...}" />
-                <marker date="1468812546206" expanded="true" signature="1365:1677" ph="{...}" />
-                <marker date="1468812546206" expanded="true" signature="1402:1472" ph="{...}" />
-                <marker date="1468812546206" expanded="true" signature="1516:1576" ph="{...}" />
-                <marker date="1468812546206" expanded="true" signature="1598:1663" ph="{...}" />
-                <marker date="1468812546206" expanded="true" signature="1725:1774" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
-                <marker date="1468812546205" expanded="true" signature="948:1710" ph="{...}" />
-                <marker date="1468812546205" expanded="true" signature="990:1698" ph="{...}" />
-                <marker date="1468812546205" expanded="true" signature="1015:1067" ph="{&quot;type&quot;: 'area'...}" />
-                <marker date="1468812546205" expanded="true" signature="1092:1150" ph="{&quot;text&quot;: 'Perf trend'...}" />
-                <marker date="1468812546205" expanded="true" signature="1175:1277" ph="{...}" />
-                <marker date="1468812546205" expanded="true" signature="1302:1418" ph="{...}" />
-                <marker date="1468812546205" expanded="true" signature="1331:1400" ph="{&quot;text&quot;: 'Response Time'...}" />
-                <marker date="1468812546205" expanded="true" signature="1444:1684" ph="[...]" />
-                <marker date="1468812546205" expanded="true" signature="1445:1563" ph="{&quot;name&quot;: 'Sell_API'...}" />
-                <marker date="1468812546205" expanded="true" signature="1565:1683" ph="{&quot;name&quot;: 'Buy_API'...}" />
+                <marker date="1469027465085" expanded="true" signature="981:1743" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1023:1731" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1048:1100" ph="{&quot;type&quot;: 'area'...}" />
+                <marker date="1469027465085" expanded="true" signature="1125:1183" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1208:1310" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1335:1451" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1364:1433" ph="{...}" />
+                <marker date="1469027465085" expanded="true" signature="1477:1717" ph="[...]" />
+                <marker date="1469027465085" expanded="true" signature="1478:1596" ph="{&quot;name&quot;: 'Sell_API'...}" />
+                <marker date="1469027465085" expanded="true" signature="1598:1716" ph="{&quot;name&quot;: 'Buy_API'...}" />
               </folding>
             </state>
           </provider>
@@ -152,8 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/routes/api/apimodule.rb" />
-        <option value="$PROJECT_DIR$/app/routes/page/homepage.rb" />
-        <option value="$PROJECT_DIR$/app/routes/page/loginpage.rb" />
         <option value="$PROJECT_DIR$/app/routes/page/pagemodule.rb" />
         <option value="$PROJECT_DIR$/log/server.log" />
         <option value="$PROJECT_DIR$/conf/config.yml" />
@@ -165,6 +155,9 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/routes/routebase.rb" />
         <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/app/views/home.haml" />
+        <option value="$PROJECT_DIR$/app/routes/page/homepage.rb" />
+        <option value="$PROJECT_DIR$/app/routes/page/loginpage.rb" />
       </list>
     </option>
   </component>
@@ -315,6 +308,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby MVC Scrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby MVC Scrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -440,12 +455,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468812876455</updated>
-      <workItem from="1468812882683" duration="6101000" />
+      <workItem from="1468812882683" duration="6409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6101000" />
+    <option name="totallyTimeSpent" value="6409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -498,14 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/page/homepage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -566,46 +573,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/page/loginpage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/page/registerpage.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1468812546205" expanded="true" signature="948:1710" ph="{...}" />
-            <marker date="1468812546205" expanded="true" signature="990:1698" ph="{...}" />
-            <marker date="1468812546205" expanded="true" signature="1015:1067" ph="{&quot;type&quot;: 'area'...}" />
-            <marker date="1468812546205" expanded="true" signature="1092:1150" ph="{&quot;text&quot;: 'Perf trend'...}" />
-            <marker date="1468812546205" expanded="true" signature="1175:1277" ph="{...}" />
-            <marker date="1468812546205" expanded="true" signature="1302:1418" ph="{...}" />
-            <marker date="1468812546205" expanded="true" signature="1331:1400" ph="{&quot;text&quot;: 'Response Time'...}" />
-            <marker date="1468812546205" expanded="true" signature="1444:1684" ph="[...]" />
-            <marker date="1468812546205" expanded="true" signature="1445:1563" ph="{&quot;name&quot;: 'Sell_API'...}" />
-            <marker date="1468812546205" expanded="true" signature="1565:1683" ph="{&quot;name&quot;: 'Buy_API'...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,6 +649,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <marker date="1469027465085" expanded="true" signature="981:1743" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1023:1731" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1048:1100" ph="{&quot;type&quot;: 'area'...}" />
+            <marker date="1469027465085" expanded="true" signature="1125:1183" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1208:1310" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1335:1451" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1364:1433" ph="{...}" />
+            <marker date="1469027465085" expanded="true" signature="1477:1717" ph="[...]" />
+            <marker date="1469027465085" expanded="true" signature="1478:1596" ph="{&quot;name&quot;: 'Sell_API'...}" />
+            <marker date="1469027465085" expanded="true" signature="1598:1716" ph="{&quot;name&quot;: 'Buy_API'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/page/homepage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/page/loginpage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>

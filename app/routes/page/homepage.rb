@@ -5,6 +5,7 @@ module Foolcat
             
             get '/home' do
                 # Pass session data to haml file by @param
+                #in the page, you can use it in script
                 @login_name = session[:loginuser]
                 haml :home
             end

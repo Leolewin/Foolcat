@@ -25,6 +25,7 @@
             .row
                 .highcharts-container#perftrend{:style => "width:100%; height:400px;"}
 :javascript
+  !=login_name = #{@login_name};
         $(function () { 
             $('#perftrend').highcharts({
                 chart: {
