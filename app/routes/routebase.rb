@@ -3,9 +3,10 @@ module Foolcat
 
         class RouteBase < Sinatra::Application
 
-            configure do
-                set :views, 'app/views'
-            end
+            #this config moved to app.rb
+            # configure do
+            #     set :views, 'app/views'
+            # end
             
             #using before filters to check session expired, except /login, /logout, /rest Request
             before /^(?!\/(login|logout|rest|resources|fav).*)/ do
