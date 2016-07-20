@@ -25,11 +25,13 @@ module Foolcat
         
         configure do 
             set :root, App.root #used to construct the default :public_folder
-            disable :method_override #disable the POST _method hack
+            # disable :method_override #disable the POST _method hack
+
         end
         
         use Rack::Deflater
         use Rack::Session::Pool, :expire_after => 7200
+
 
         #declare/register Page Module for Rack middleware, check middleware.to_s
         #example: use Foolcat::Page::LoginPage
@@ -39,7 +41,8 @@ module Foolcat
         Resolver.get_all_klass_name(page_route_dir) { |klassname|
             use Object.const_get('Foolcat::Page::' + klassname)
         }
-        
+
+        p middleware.to_s
         
         #declare/register API Module for Rack middleware, check middleware.to_s
         #example: use Foolcat::RestAPI::WPTAPI
