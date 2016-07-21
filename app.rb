@@ -56,6 +56,14 @@ module Foolcat
         Resolver.get_all_klass_name(api_route_dir) { |klassname|
             use Object.const_get('Foolcat::RestAPI::' + klassname)
         }
+
+
+        #custom the 404 page here, layout is not used
+        error Sinatra::NotFound do
+            content_type 'text/plain'
+            [404, 'Not Found']
+            haml :not_found, :layout => false
+        end
        
     end
     
